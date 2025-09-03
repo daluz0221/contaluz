@@ -26,7 +26,7 @@ export const ServiceItem = ({ bg, title, text, image, reverse, details }:Props) 
 
   return (
     <section className={`${ bg ? bg : 'bg-white' } flex flex-col min-h-[75vh] md:min-h-[60vh]`}>
-      <div className={`container mx-auto flex flex-1 flex-col md:flex-row gap-8 items-center text-center  ${
+      <div className={`container mx-auto flex flex-1 flex-col md:flex-row lg:justify-between lg:px-20 gap-8 items-center text-center  ${
                   reverse ? "md:flex-row-reverse" : ""
                 }`}>
           {/* image */}
