@@ -34,10 +34,10 @@ export const Header = () => {
                 {/* Logo */}
                 <div className="flex items-center space-x-2">
                     <Image
-                        src="/logo.png" // coloca tu logo en /public/logo.png
+                        src="/contaluz-logo-transparent.png" // coloca tu logo en /public/logo.png
                         alt="Logo Contador"
-                        width={40}
-                        height={40}
+                        width={100}
+                        height={100}
                     />
                 </div>
 
@@ -46,7 +46,7 @@ export const Header = () => {
                     <a href="#servicios" className="hover:text-[var(--primaryHover)] transition">
                         Servicios
                     </a>
-                    <a href="#faq" className="hover:text-[var(--primaryHover)] transition">
+                    <a href="#faqs" className="hover:text-[var(--primaryHover)] transition">
                         Faqs
                     </a>
                     <a href="#contacto" className="hover:text-[var(--primaryHover)] transition">
