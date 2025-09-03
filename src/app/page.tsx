@@ -2,7 +2,7 @@ import { WhatsappButton } from "@/components/buttons";
 import { ContactForm } from "@/components/contact";
 import { FaqGrid } from "@/components/faqs";
 import { ServiceLayout } from "@/components/services";
-import { Footer, Header, HeaderSticky } from "@/components/ui";
+import { Footer, Header } from "@/components/ui";
 import Image from "next/image";
 
 

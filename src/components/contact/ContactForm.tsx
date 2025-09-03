@@ -36,6 +36,8 @@ export const ContactForm = () => {
         setModal({ show: true, success: false });
       }
     } catch (error) {
+        console.log(error);
+        
       setModal({ show: true, success: false });
     } finally {
       setLoading(false);

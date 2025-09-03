@@ -1,7 +1,7 @@
 "use client"
 import { Menu, X } from 'lucide-react'
 import Image from 'next/image'
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useState } from 'react'
 
 
 export const Header = () => {
